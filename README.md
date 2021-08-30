@@ -1,6 +1,6 @@
 # Module 3 - Password Generator
 
-# [DEMO](https://somdobomk.github.io/Module3-Challenge/)
+<center># [DEMO](https://somdobomk.github.io/Module3-Challenge/)</center>
 
 <div align="center">
     <img src="./assets/images/screenshot.gif" width="400px"> 
