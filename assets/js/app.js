@@ -57,11 +57,11 @@ var upperCaseLetters = [
 	'Z',
 ];
 var numbersChoice = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
-var specialCharacters = ['#', '%', '*', '!', '@', '^', '$'];
+var alternateCharacters = ['#', '%', '*', '!', '@', '^', '$'];
 console.log(lowerCaseLetters);
 console.log(upperCaseLetters);
 console.log(numbersChoice);
-console.log(specialCharacters);
+console.log(alternateCharacters);
 
 function passwordChoice() {
 	var length = parseInt(
@@ -135,9 +135,9 @@ function generatePassword() {
 		actualItems.push(getRandomPassword(upperCaseLetters));
 	}
 
-	if (choices.specialAlternateCharacters) {
-		potentialItems = potentialItems.concat(specialCharacters);
-		actualItems.push(getRandomPassword(specialCharacters));
+	if (choices.alternateCharacters) {
+		potentialItems = potentialItems.concat(alternateCharacters);
+		actualItems.push(getRandomPassword(alternateCharacters));
 	}
 
 	if (choices.wholeNumbers) {
